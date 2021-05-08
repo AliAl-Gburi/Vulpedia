@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="css/rwd.css">
+        <!--<link rel="stylesheet" href="css/style.css">-->
+        <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16">
+        <link rel="icon" type="image/png" href="favicon.ico" sizes="32x32">
+        <link rel="icon" type="image/png" href="favicon.ico" sizes="96x96">
+        <meta charset="UTF-8">
+
+        <title>Vulpedia - Contact us</title>
+</head>
+
+<body>
+<header>
+    <img src="images/foxhead2-1920.jpg" alt="fox banner">
+    <nav>
+        <ul>
+            <li ><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About us</a></li>
+            <li><a id="contact" href="contact-us.html">Contact us</a></li>
+            <li><a href="foxes.html">Foxes</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1>Contact us</h1>
+    <form id="contacts" action="#" novalidate>
+        <p><label for="lastname">Last Name*</label><input type="text" id="lastname"  name="lastname" required></p>
+        <p><label for="firstname">First Name</label><input type="text" id="firstname" name="firstname"></p>
+        <p><label for="email">Email*</label><input type="text" id="email" name="email" required></p>
+        <p class="radiolabel">Type of error?</p>
+        <ul id="error">
+            <li class="radioitem"><input type="radio" name="error">Pages are not loading correctly</li>
+            <li class="radioitem"><input type="radio" name="error">Mistakes in the articles</li>
+            <li class="radioitem"><input type="radio" name="error">Other</li>
+        </ul>
+        <p><label for="browser">Browser</label>
+            <select name="browsertype" id="browser" size="1">
+                <option value="ie8">Internet Explorer 8</option>
+                <option value="edge">Microsoft Edge</option>
+                <option value="safari">Safari</option>
+                <option value="chrome">Chrome</option>
+                <option value="firefox">Firefox</option>
+                <option value="opera">Opera</option>
+                <option value="others">Other</option>
+            </select></p>
+        <p id="bigtext"><label for="textarea">Description</label><textarea name="errordescription" id="textarea"  rows="5" placeholder="Write the page url of the pages that are not loading correctly and describe the problem"></textarea></p>
+        <p><input type="submit" value="Send" id="submit"></p>
+    </form>
+</main>
+
+<footer>
+    <p><small>Site written by <i><strong>Ali Al-Gburi</strong></i></small></p>
+    <p><small><span>Photo by <a href="https://unsplash.com/@hans_veth?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Hans Veth</a> on <a href="https://unsplash.com/@hans_veth?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></small></p>
+</footer>
+</body>
+</html>

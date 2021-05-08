@@ -1,0 +1,205 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+
+
+/* Make images easier to work with */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+    margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: lavender;
+    margin-top: 0;
+    margin-left: 0;
+}
+main {
+    grid-row: 5 / 6;
+}
+article {
+    margin: 0 auto;
+    width: 600px;
+    background-color: hsl(29, 100%, 48%);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px gray;
+}
+#editor {
+    margin-top: 50px;
+}
+h1 {
+    font-size: 3rem;
+    font-family: "Nunito";
+    text-align: center;
+    color: hsl(29, 0%, 23%);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+nav li {
+    list-style: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+nav a {
+    color: white;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 17px;
+    padding-bottom: 18px;
+}
+nav a:hover {
+    background-color: hsl(29, 100%, 43%);
+}
+p {
+    color: white;
+    line-height: 1.5;
+}
+
+nav {
+    background-color: hsl(29, 100%, 48%);
+    margin: 0 auto;
+    width: 600px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px gray;
+    grid-row: 4/5;
+}
+#container {
+    display: grid;
+    grid-template-rows: 10em 20px 50px 50px 1fr 50px;
+}
+ul {
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer p {
+    color: hsl(29, 0%, 23%);
+}
+#banner {
+    width: 100%;
+    grid-row: 1 / 2;
+}
+footer {
+    grid-row: 8/9;
+}
+h2 {
+    font-family: "Nunito";
+    font-size: 2rem;
+    color: hsl(29, 0%, 23%);
+    margin-bottom: 30px;
+}
+dd {
+    color: white;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+dt {
+    color: hsl(29, 0%, 23%);
+    margin-top: 50px;
+    font-family: "Nunito";
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+main {
+    grid-row: 7/8;
+}
+h3 {
+    font-family: "Nunito";
+    font-size: 1.5rem;
+    color: hsl(29, 0%, 23%);
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+dd a {
+    color: hsl(29, 0%, 23%);
+}
+#hom {
+    background-color: hsl(29, 100%, 43%);
+}
+#abou {
+    background-color: hsl(29, 100%, 43%);
+}
+#foxes {
+    background-color: hsl(29, 100%, 43%);
+}
+img {
+   /* margin-bottom: 30px;*/
+}
+#type {
+    width: 100%
+}
+#fennec {
+    margin: 25px 0 10px 10px;
+    padding-left: 10px;
+    float: right;
+    width: 30%;
+    -webkit-shape-outside: polygon(12% 0, 57% 0, 100% 0, 100% 100%, 38% 100%, 20% 52%, 10% 32%, 8% 13%);
+    border-bottom-right-radius: 10px;
+}
+

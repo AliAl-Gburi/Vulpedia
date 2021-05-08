@@ -1,0 +1,239 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+
+
+/* Make images easier to work with */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+    margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+body {
+    background-color: lavender;
+    font-family: "Roboto", sans-serif;
+
+}
+main {
+    margin: 3% 3% 3% 3%;
+}
+#fennec {
+    float: right;
+    width: 100px;
+    border-bottom-right-radius: 10px;
+    -webkit-shape-outside: polygon(12% 0, 57% 0, 100% 0, 100% 100%, 38% 100%, 20% 52%, 10% 32%, 8% 13%);
+}
+h1 {
+    font-family: Nunito;
+}
+header img {
+    display: none;
+    margin-bottom: 20px;
+}
+article {
+    margin-top: 2em;
+}
+nav {
+    background-color: hsl(29, 100%, 48%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+}
+#dlteam {
+    border: none;
+}
+#dlteam dt {
+    font-size: 1.2em;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: center;
+}
+nav ul li {
+    flex: 1 1 33%;
+}
+nav a {
+    border: 1px solid;
+    border-color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    display: block;
+    margin: .15em;
+    text-align: center;
+    padding: .5em 1em;
+    color: white;
+}
+
+#type {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border-radius: 10px;
+}
+#editor {
+    margin-top: 10%;
+}
+#editor header h2 {
+    margin-left: 5px;
+}
+dl {
+    border: 1px #C60 solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+dt {
+    margin-bottom: 3%;
+}
+dd {
+    margin-bottom: 5%;
+}
+@media screen and (min-width: 600px) {
+    nav ul li {
+        flex: none;
+    }
+    nav ul {
+        justify-content: center;
+    }
+    h1 {
+        margin-bottom: 40px;
+    }
+    h2, h3 {
+        font-weight: bold;
+    }
+    main {
+        line-height: 1.8em;
+        padding: 1em;
+        margin: 3%;
+    }
+}
+@media screen and (min-width: 760px) {
+    #type {
+        float: left;
+        margin-bottom: .5%;
+        margin-right: 2.5%;
+        margin-top: 1.5%;
+    }
+}
+@media screen and (min-width: 980px) {
+    nav {
+        background-color: hsl(29, 100%, 48%);
+        margin: 0 auto;
+        width: 600px;
+        border-radius: 15px;
+        box-shadow: 2px 2px 5px gray;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+    header img {
+        display: block;
+    }
+    #type {
+        margin-bottom: 25px;
+        margin-top: 25px;
+        width: 100%;
+    }
+    h1 {
+        text-align: center;
+    }
+    dd a {
+        color: black;
+    }
+    h2, h3 {
+        font-family: Nunito;
+    }
+    #vulpes p{
+        margin-top: 4%;
+    }
+    article {
+        color: white;
+        margin: 0 auto;
+        width: 600px;
+        background-color: hsl(29, 100%, 48%);
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border-radius: 15px;
+        box-shadow: 2px 2px 5px gray;
+    }
+    nav a {
+        border: none;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: .8em;
+        padding-bottom: .8em;
+        border-radius: 0;
+    }
+    dl {
+        border: none;
+    }
+    nav a:hover {
+        background-color: hsl(29, 100%, 43%);
+    }
+
+
+}
+

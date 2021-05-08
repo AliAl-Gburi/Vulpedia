@@ -1,0 +1,507 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+
+
+/* Make images easier to work with */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+    margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+body {
+    background-color: lavender;
+    font-family: "Roboto", sans-serif;
+
+}
+label {
+    margin-top: 0.4rem;
+    display: block;
+    margin-bottom: 0.4rem;
+}
+main, aside, h1 {
+    margin: 3% 3% 3% 3%;
+}
+h2, h3 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+h1 {
+    font-family: Nunito;
+}
+header img {
+    display: none;
+    margin-bottom: 20px;
+}
+article {
+    margin-top: 2em;
+}
+nav {
+    background-color: hsl(29, 100%, 68%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+}
+#fennec {
+    float: right;
+    width: 100px;
+    margin: .8em;
+}
+#contents:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+footer {
+    background-color: hsl(29, 100%, 68%);
+    text-align: center;
+}
+#dlteam {
+    border: none;
+}
+.radioitem {
+    margin-top: 10px;
+}
+#error {
+    list-style: none;
+}
+#lastname, #firstname, #email, select, textarea {
+    width: 100%;
+    padding-left: 0.4em;
+    display: block;
+    line-height: 2em;
+    border-radius: 5px;
+    border: 1px solid hsl(29, 100%, 68%);
+}
+#bigtext {
+    margin-top: 20px;
+}
+select {
+    width: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid hsl(29, 100%, 68%);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#dlteam dt {
+    font-size: 1.2em;
+}
+::placeholder, select, textarea {
+    font-size: 0.8rem;
+    padding: 0.4rem;
+}
+
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: center;
+}
+nav ul li {
+    flex: 1 1 50%;
+}
+#contact, #hom, #abou, #qui, #foxes {
+    background-color: hsl(29, 100%, 48%);
+    color: white;
+}
+#arctic, #bengal, #blanfords, #cape, #corsac, #fenne, #kit, #pale, #red, #ruppells, #swift,
+#tibetan{
+    background-color: hsl(29, 100%, 48%);
+    color: white;
+}
+nav a {
+    border: 1px solid;
+    border-color: black;
+    border-radius: 15px;
+    text-decoration: none;
+    display: block;
+    margin: .15em;
+    text-align: center;
+    padding: .5em 1em;
+    color: black;
+}
+
+#editor {
+    margin-top: 10%;
+}
+#editor header h2 {
+    margin-left: 5px;
+}
+dl {
+    border: 1px #C60 solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+dt {
+    margin-bottom: 3%;
+}
+dd {
+    margin-bottom: 5%;
+}
+
+#thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+}
+#thumbnails li a {
+    color: black;
+    text-decoration: underline;
+}
+#thumbnails li a:hover {
+    color: white;
+
+}
+a {
+    color: black;
+    text-decoration: underline;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    transition: color 0.2s;
+}
+a:hover {
+    color: white;
+}
+
+#thumbnails li img {
+    border-radius: 10px;
+}
+
+.thumbnail {
+    padding: 20px;
+    background-color: hsl(29, 100%, 68%);
+    list-style: none;
+    text-align: center;
+    width: 240px;
+    margin: 5% 5% 5% 5%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+}
+#submit {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid hsl(29, 100%, 68%);
+}
+.right {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.left {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+#appearance, #behaviour, #habitat {
+    margin-top: 5%;
+    overflow: auto;
+}
+#browser {
+    margin-top: 10px;
+}
+#asidefoxes ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+
+}
+#asidefoxes ul a {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    border: solid 1px black;
+    border-radius: 20px;
+    background-color: hsl(29, 100%, 68%);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 5px gray;
+}
+#asidefoxes ul #arctic,#asidefoxes ul  #bengal,#asidefoxes ul #blanfords,#asidefoxes ul #cape,#asidefoxes ul #corsac,#asidefoxes ul #fenne,#asidefoxes ul #kit,#asidefoxes ul #pale,#asidefoxes ul #red,#asidefoxes ul #ruppells,#asidefoxes ul #swift,#asidefoxes ul #tibetan{
+    background-color: hsl(29, 100%, 48%);
+}
+
+@media screen and (min-width: 600px) {
+    nav ul li {
+        flex: none;
+    }
+    nav ul {
+        justify-content: center;
+    }
+    h1 {
+        margin-bottom: 40px;
+    }
+    h2, h3 {
+        font-weight: bold;
+    }
+    main {
+        line-height: 1.8em;
+        padding: 1em;
+        margin: 3%;
+    }
+    .right {
+        width: 200px;
+        float: right;
+        margin-left: 10px;
+    }
+    .left {
+        width: 250px;
+        float: left;
+        margin-right: 10px;
+    }
+}
+@media screen and (min-width: 760px) {
+
+
+}
+@media screen and (min-width: 1200px) {
+    nav {
+        background-color: hsl(29, 100%, 68%);
+        margin: 0 auto;
+        width: 500px;
+        border-radius: 15px;
+        box-shadow: 2px 2px 5px gray;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #container{
+        display: grid;
+        grid-template-rows: 22em 1fr 50px;
+        grid-template-columns: 1fr 32em;
+        grid-template-areas:
+            "nav    nav"
+            "main   editor"
+            "footer footer";
+    }
+    #banner {
+        grid-area: nav;
+    }
+    #contents {
+        margin-top: 25px;
+        grid-area: main;
+    }
+    #editor {
+        grid-area: editor;
+        width: 450px;
+    }
+    #test {
+        grid-area: editor;
+    }
+    footer {
+        grid-area: footer;
+    }
+    h1 {
+        margin-top: 20px;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+    header img {
+        display: block;
+    }
+    h1 {
+        text-align: center;
+    }
+    h2, h3 {
+        margin-bottom: 40px;
+        font-family: Nunito;
+    }
+    #vulpes p{
+        margin-top: 4%;
+    }
+    article {
+        margin: 0 auto;
+        max-width: 1280px;
+        background-color: hsl(29, 100%, 68%);
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border-radius: 15px;
+        box-shadow: 2px 2px 5px gray;
+        overflow: auto;
+    }
+    nav a {
+        border: none;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: .8em;
+        padding-bottom: .8em;
+        border-radius: 0;
+    }
+    dl {
+        border: none;
+    }
+    nav a:hover {
+        background-color: hsl(29, 100%, 48%);
+    }
+    form {
+        margin: auto;
+        max-width: 1200px;
+
+    }
+    #contacts p {
+        display: grid;
+        grid-template-areas: "label inputfield";
+        grid-template-columns: 2fr 4fr;
+        grid-column-gap: 1em;
+        align-items: center;
+    }
+    label, .radiolabel {
+        grid-area: label;
+        grid-column-start: 1;
+        text-align: right;
+    }
+    #firstname, #lastname, #email, input, textarea, .error, #browser {
+        grid-area: inputfield;
+
+    }
+    .radioitem{
+        margin-left: 400px;
+    }
+    .radiolabel {
+        margin-top: 20px;
+    }
+    #firstname, #lastname, #email, #textarea, #browser {
+        max-width: 400px;
+
+    }
+
+
+    #submit {
+        width: 20%;
+        margin-top: 50px;
+        margin-left: 120px;
+    }
+    #foxcontainer {
+        display: grid;
+        grid-template-rows: 22em 1fr 80px;
+        grid-template-columns: 300px 1fr;
+        grid-template-areas:
+            "banner  banner"
+            "aside   main"
+            "footer footer";
+    }
+    #foxesheader {
+        grid-area: banner;
+    }
+    #asidefoxes {
+        grid-area: aside;
+    }
+    #mainfoxes {
+        grid-area: main;
+    }
+    footer {
+        grid-area: footer;
+    }
+    #asidefoxes {
+        margin-left: 30px;
+        margin-top: 30px;
+
+    }
+    #asidefoxes ul {
+
+        background-color: hsl(29, 100%, 68%);
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 15px;
+        box-shadow: 2px 2px 5px gray;
+        text-align: center;
+    }
+    #asidefoxes ul a {
+        border-radius: 0;
+        display: block;
+        text-decoration: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        box-shadow: none;
+        border: none;
+    }
+    #asidefoxes ul a:hover {
+        background-color: hsl(29, 100%, 48%);
+        color: white;
+    }
+
+
+
+
+}
+@media screen and (min-width: 1800px) {
+    #contents {
+        margin-top: 6px;
+    }
+    #asidefoxes {
+        margin-top: 45px;
+
+    }
+}
+
+
